@@ -1,4 +1,8 @@
-# https://github.com/uBlockOrigin/uAssets/pull/3517
+// # https://github.com/uBlockOrigin/uAssets/pull/3517
+
+// #v2 based on
+// # https://ttv-ublock.vercel.app/twitch-videoad.js
+
 twitch-videoad.js application/javascript
 (function() {
 	if ( /(^|\.)twitch\.tv$/.test(document.location.hostname) === false ) { return; }
